@@ -599,7 +599,7 @@ section,
 }
 ::-moz-selection,
 ::selection {
-  background: #ee7725;
+  background: #5881C1;
   color: #fff;
   text-shadow: none;
 }
@@ -614,13 +614,17 @@ body {
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   position: relative;
 }
-p {
+p, #publico ul li {
   font-family: Georgia, Cambria, Times, Times New Roman, serif;
   font-size: 1em;
   line-height: 1.4em;
   margin-top: 0;
   margin-bottom: 1em;
   padding: 0 1em;
+}
+
+#publico ul li {
+  font-size: 0.9em;
 }
 header #chamada,
 header h1,
@@ -710,7 +714,7 @@ header img {
   box-shadow: 0 0 5px #888;
 }
 header #logos {
-  background: #ee7725;
+  background: #5881C1;
   text-align: center;
 }
 header #logos a {
@@ -745,7 +749,7 @@ header #logos a[href='http://www.caelum.com.br'] {
   text-shadow: 0px -1px 1px rgba(200, 200, 200, 0.5);
 }
 .compreja .nicebutton {
-  background: #ff7f00;
+  background: #5881C1;
   color: white;
   font-size: 1.5em;
   font-weight: normal;
@@ -777,7 +781,7 @@ iframe.twitter-share-button {
   visibility: visible;
 }
 #curso {
-  background: #ee7725;
+  background: #5881C1;
   margin: 1.5em 0 0 0;
   width: 100%;
 }
@@ -844,7 +848,7 @@ iframe.twitter-share-button {
   font-size: 1.30em;
 }
 #outroscursos {
-  background: #ee7725;
+  background: #5881C1;
   padding: 10px 0;
   text-align: center;
 }
@@ -946,7 +950,7 @@ section h1:before {
   margin: 0;
 }
 #conteudo ol a {
-  color: #ee7725;
+  color: #5881C1;
 }
 #conteudo ol a:visited {
   color: #805070;
@@ -958,7 +962,7 @@ section h1:before {
   margin-top: 2em;
 }
 #tectura {
-  background: #ee7725;
+  background: #5881C1;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -1012,7 +1016,7 @@ section h1:before {
   text-align: center;
 }
 #autores #falecom a {
-  color: #ee7725;
+  color: #5881C1;
   word-wrap: break-word;
 }
 #autores #falecom a:hover {
@@ -1039,7 +1043,7 @@ section h1:before {
   width: 100% !important;
 }
 footer {
-  background: #ee7725;
+  background: #5881C1;
   clear: both;
   margin: 0;
   padding: 1em 0;
@@ -1572,7 +1576,7 @@ footer #logos a[href='http://www.caelum.com.br'] {
     height: 90px;
   }
   header:after {
-    background: #ee7725;
+    background: #5881C1;
     bottom: 0;
     content: ' ';
     right: 0;
